@@ -1,0 +1,424 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mainapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:5:5-66
+13-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:5:22-63
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:6:5-80
+14-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.CAMERA" /> <!-- Include this only if you are planning to use the camera roll -->
+15-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:7:5-65
+15-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:7:22-62
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:10:5-80
+16-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Include this only if you are planning to use the microphone for video recording -->
+17-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:11:5-81
+17-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:14:5-70
+18-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:14:22-68
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[com.facebook.flipper:flipper:0.54.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\da73bf2eac3b39390219acede4507127\flipper-0.54.0\AndroidManifest.xml:16:5-76
+19-->[com.facebook.flipper:flipper:0.54.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\da73bf2eac3b39390219acede4507127\flipper-0.54.0\AndroidManifest.xml:16:22-73
+20
+21    <uses-feature
+21-->[:react-native-camera] C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:11:5-13:36
+22        android:name="android.hardware.camera"
+22-->[:react-native-camera] C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:12:9-47
+23        android:required="false" />
+23-->[:react-native-camera] C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:13:9-33
+24    <uses-feature
+24-->[:react-native-camera] C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:14:5-16:36
+25        android:name="android.hardware.camera.autofocus"
+25-->[:react-native-camera] C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:15:9-57
+26        android:required="false" />
+26-->[:react-native-camera] C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:16:9-33
+27
+28    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+28-->[:react-native-maps] C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+28-->[:react-native-maps] C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-78
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\78f0a0a09f1bb14a3a2d04220894e2dc\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\78f0a0a09f1bb14a3a2d04220894e2dc\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+30
+31    <uses-feature
+31-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\78f0a0a09f1bb14a3a2d04220894e2dc\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+32        android:glEsVersion="0x00020000"
+32-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\78f0a0a09f1bb14a3a2d04220894e2dc\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+33        android:required="true" />
+33-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\78f0a0a09f1bb14a3a2d04220894e2dc\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+34
+35    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+35-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:23:5-68
+35-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:23:22-65
+36    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+36-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:25:5-82
+36-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:25:22-79
+37    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
+37-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:26:5-110
+37-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:26:22-107
+38    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+39    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+40    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+41    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+42    <!-- for Samsung -->
+43    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+43-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+43-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+44    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+44-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+44-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+45    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+45-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+45-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+46    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+47    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+48    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+49    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+50    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+51    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+52    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+53    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+54    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+55    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+56    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+57    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+58    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\b7cd27410d3ac709f38b7b5effa49e97\ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+59
+60    <application
+60-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:16:5-64:19
+61        android:name="com.mainapp.MainApplication"
+61-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:17:7-38
+62        android:allowBackup="false"
+62-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:21:7-34
+63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+63-->[androidx.core:core:1.2.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\f354410efc6d31bf6f176e41e7798cf0\core-1.2.0\AndroidManifest.xml:24:18-86
+64        android:debuggable="true"
+65        android:icon="@mipmap/ic_launcher"
+65-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:19:7-41
+66        android:label="@string/app_name"
+66-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:18:7-39
+67        android:roundIcon="@mipmap/ic_launcher_round"
+67-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:20:7-52
+68        android:theme="@style/AppTheme"
+68-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:22:7-38
+69        android:usesCleartextTraffic="true" >
+69-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\debug\AndroidManifest.xml:7:18-53
+70        <activity
+70-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:23:7-33:18
+71            android:name="com.mainapp.MainActivity"
+71-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:24:9-37
+72            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+72-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:26:9-86
+73            android:label="@string/app_name"
+73-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:25:9-41
+74            android:launchMode="singleTask"
+74-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:27:9-40
+75            android:windowSoftInputMode="adjustResize" >
+75-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:28:9-51
+76            <intent-filter>
+76-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:29:9-32:25
+77                <action android:name="android.intent.action.MAIN" />
+77-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:30:13-65
+77-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:30:21-62
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:31:13-73
+79-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:31:23-70
+80            </intent-filter>
+81        </activity>
+82        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+82-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:34:7-84
+82-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:34:17-81
+83
+84        <meta-data
+84-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:36:9-38:66
+85            android:name="com.google.android.geo.API_KEY"
+85-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:37:9-54
+86            android:value="AIzaSyCtyNlpUoses3dSfqptLB_ZWwSwim2mVwM" /> <!-- Change the value to true to enable pop-up for in foreground on receiving remote notifications (for prevent duplicating while showing local notifications set this to false) -->
+86-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:38:9-64
+87        <meta-data
+87-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:41:9-42:44
+88            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+88-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:41:21-97
+89            android:value="false" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
+89-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:42:21-42
+90        <meta-data
+90-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:44:9-45:54
+91            android:name="com.dieam.reactnativepushnotification.notification_color"
+91-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:44:21-92
+92            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+92-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:45:21-52
+93        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+93-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:47:9-108
+93-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:47:19-105
+94        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+94-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:48:9-110
+94-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:48:19-107
+95        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
+95-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:49:9-55:20
+95-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:49:19-115
+96            <intent-filter>
+96-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:50:13-54:29
+97                <action android:name="android.intent.action.BOOT_COMPLETED" />
+97-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:51:17-79
+97-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:51:25-76
+98                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+98-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:52:17-82
+98-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:52:25-79
+99                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+99-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:53:17-81
+99-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:53:25-79
+100            </intent-filter>
+101        </receiver>
+102
+103        <service
+103-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:57:9-63:19
+104            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+104-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:58:13-107
+105            android:exported="false" >
+105-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:59:13-37
+106            <intent-filter>
+106-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:60:13-62:29
+107                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+107-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:61:17-78
+107-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:61:25-75
+108            </intent-filter>
+109        </service> <!-- Needs to be explicitly declared on P+ -->
+110        <uses-library
+110-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\78f0a0a09f1bb14a3a2d04220894e2dc\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+111            android:name="org.apache.http.legacy"
+111-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\78f0a0a09f1bb14a3a2d04220894e2dc\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+112            android:required="false" />
+112-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\78f0a0a09f1bb14a3a2d04220894e2dc\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+113
+114        <activity
+114-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\9e245b0d40405555cbc6e473f5b47410\play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+115            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+115-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\9e245b0d40405555cbc6e473f5b47410\play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\9e245b0d40405555cbc6e473f5b47410\play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+117-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\9e245b0d40405555cbc6e473f5b47410\play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+118
+119        <receiver
+119-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:28:9-35:20
+120            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+120-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:29:13-78
+121            android:exported="true"
+121-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:30:13-36
+122            android:permission="com.google.android.c2dm.permission.SEND" >
+122-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:31:13-73
+123            <intent-filter>
+123-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:32:13-34:29
+124                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+124-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:33:17-81
+124-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:33:25-78
+125            </intent-filter>
+126        </receiver>
+127        <!--
+128             FirebaseMessagingService performs security checks at runtime,
+129             but set to not exported to explicitly avoid allowing another app to call it.
+130        -->
+131        <service
+131-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:41:9-48:19
+132            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+132-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:42:13-82
+133            android:directBootAware="true"
+133-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:43:13-43
+134            android:exported="false" >
+134-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:44:13-37
+135            <intent-filter android:priority="-500" >
+135-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:60:13-62:29
+136                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+136-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:61:17-78
+136-->C:\Users\Afroz Sorathiya\OneDrive\Documents\Projects\React-Native\CAMSTask\android\app\src\main\AndroidManifest.xml:61:25-75
+137            </intent-filter>
+138        </service>
+139        <service
+139-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:49:9-55:19
+140            android:name="com.google.firebase.components.ComponentDiscoveryService"
+140-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:50:13-84
+141            android:directBootAware="true"
+141-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\059f65787b628b30fecff658a0045278\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+142            android:exported="false" >
+142-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:51:13-37
+143            <meta-data
+143-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:52:13-54:85
+144                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+144-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:53:17-119
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\2babc00777d842c16ba9e33a2f43f109\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:54:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\f18d85733b39224da6f5e506ba255c3b\firebase-datatransport-17.0.10\AndroidManifest.xml:28:13-30:85
+147                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+147-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\f18d85733b39224da6f5e506ba255c3b\firebase-datatransport-17.0.10\AndroidManifest.xml:29:17-115
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\f18d85733b39224da6f5e506ba255c3b\firebase-datatransport-17.0.10\AndroidManifest.xml:30:17-82
+149            <meta-data
+149-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\43d73e103a145866e83b973885de8459\play-services-measurement-api-17.3.0\AndroidManifest.xml:30:13-32:85
+150                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+150-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\43d73e103a145866e83b973885de8459\play-services-measurement-api-17.3.0\AndroidManifest.xml:31:17-139
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\43d73e103a145866e83b973885de8459\play-services-measurement-api-17.3.0\AndroidManifest.xml:32:17-82
+152            <meta-data
+152-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\f180c9217b75367f26f084e6097d97b3\firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+153                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+153-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\f180c9217b75367f26f084e6097d97b3\firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\f180c9217b75367f26f084e6097d97b3\firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+155            <meta-data
+155-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\02feabdb06cce2054be1f0639284f227\firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+156                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+156-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\02feabdb06cce2054be1f0639284f227\firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\02feabdb06cce2054be1f0639284f227\firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+158            <!--
+159                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+160                clients to use it as well, by defining this registrar in their own core/common library.
+161            -->
+162            <meta-data
+162-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\059f65787b628b30fecff658a0045278\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+163                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+163-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\059f65787b628b30fecff658a0045278\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\059f65787b628b30fecff658a0045278\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+165        </service>
+166        <service
+166-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\6427a01138879e184cd6a565b1981e34\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+167            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+167-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\6427a01138879e184cd6a565b1981e34\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+168            android:exported="false" >
+168-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\6427a01138879e184cd6a565b1981e34\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+169            <meta-data
+169-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\6427a01138879e184cd6a565b1981e34\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+170                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+170-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\6427a01138879e184cd6a565b1981e34\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+171                android:value="cct" />
+171-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\6427a01138879e184cd6a565b1981e34\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+172        </service>
+173        <service
+173-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\34cf748d58c0d573feb7f5b000799f7f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+174            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+174-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\34cf748d58c0d573feb7f5b000799f7f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+175            android:exported="false"
+175-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\34cf748d58c0d573feb7f5b000799f7f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+176            android:permission="android.permission.BIND_JOB_SERVICE" >
+176-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\34cf748d58c0d573feb7f5b000799f7f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+177        </service>
+178
+179        <receiver
+179-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\34cf748d58c0d573feb7f5b000799f7f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+180            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+180-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\34cf748d58c0d573feb7f5b000799f7f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+181            android:exported="false" />
+181-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\34cf748d58c0d573feb7f5b000799f7f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+182        <receiver
+182-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:29:9-33:20
+183            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+183-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:30:13-85
+184            android:enabled="true"
+184-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:31:13-35
+185            android:exported="false" >
+185-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:32:13-37
+186        </receiver>
+187        <receiver
+187-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:34:9-42:20
+188            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+188-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:35:13-100
+189            android:enabled="true"
+189-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:36:13-35
+190            android:exported="true"
+190-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:37:13-36
+191            android:permission="android.permission.INSTALL_PACKAGES" >
+191-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:38:13-69
+192            <intent-filter>
+192-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:39:13-41:29
+193                <action android:name="com.android.vending.INSTALL_REFERRER" />
+193-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:40:17-79
+193-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:40:25-76
+194            </intent-filter>
+195        </receiver>
+196
+197        <service
+197-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:44:9-47:40
+198            android:name="com.google.android.gms.measurement.AppMeasurementService"
+198-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:45:13-84
+199            android:enabled="true"
+199-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:46:13-35
+200            android:exported="false" />
+200-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:47:13-37
+201        <service
+201-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:48:9-52:72
+202            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+202-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:49:13-87
+203            android:enabled="true"
+203-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:50:13-35
+204            android:exported="false"
+204-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:51:13-37
+205            android:permission="android.permission.BIND_JOB_SERVICE" />
+205-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\40e65e81e8d8127ada1a9522db168a00\play-services-measurement-17.3.0\AndroidManifest.xml:52:13-69
+206
+207        <provider
+207-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\059f65787b628b30fecff658a0045278\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+208            android:name="com.google.firebase.provider.FirebaseInitProvider"
+208-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\059f65787b628b30fecff658a0045278\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+209            android:authorities="com.mainapp.firebaseinitprovider"
+209-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\059f65787b628b30fecff658a0045278\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+210            android:directBootAware="true"
+210-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\059f65787b628b30fecff658a0045278\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+211            android:exported="false"
+211-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\059f65787b628b30fecff658a0045278\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+212            android:initOrder="100" />
+212-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\059f65787b628b30fecff658a0045278\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+213
+214        <meta-data
+214-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\130f9960579de31adc1574c4fc92ec66\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+215            android:name="com.google.android.gms.version"
+215-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\130f9960579de31adc1574c4fc92ec66\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+216            android:value="@integer/google_play_services_version" />
+216-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\Afroz Sorathiya\.gradle\caches\transforms-2\files-2.1\130f9960579de31adc1574c4fc92ec66\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+217    </application>
+218
+219</manifest>
